@@ -1,16 +1,28 @@
 # chucknorris
 
-A new Flutter project.
+Chuck Norries Facts API
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+![Flutter Mobile App](https://teddy-kekana-blog.s3.amazonaws.com/flutter-chuck-norris-facts-api.png)
 
-A few resources to get you started if this is your first Flutter project:
+This project consumes Chuck Norris Facts api using Flutter and Flutter Bloc.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Ensure you have an access token setup on Github.
+
+```bash
+git clone https://github.com/teddynted/flutter-chuck-norries-jokes-api.git
+```
+
+Head over to the root of your directory, wherever it's cloned.
+```bash
+cd flutter-chuck-norries-jokes-api
+```
+
+Run your app.
+
+```bash
+flutter run
+```
