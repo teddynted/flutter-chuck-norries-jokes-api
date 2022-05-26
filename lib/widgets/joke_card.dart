@@ -3,6 +3,7 @@ import 'package:chucknorris/model/joke_model.dart';
 import 'package:flutter/material.dart';
 import 'package:chucknorris/widgets/button.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:chucknorris/helpers/palette.dart';
 
 class JokeCard extends StatelessWidget {
   final JokeModel model;
@@ -22,7 +23,7 @@ class JokeCard extends StatelessWidget {
                   width: 200,
                   image: AssetImage(
                       'assets/images/chucknorris_logo_coloured_small@2x.png'))),
-          const FaIcon(FontAwesomeIcons.quoteLeft, color: Color(0xFFf15a24)),
+          const FaIcon(FontAwesomeIcons.quoteLeft, color: Palette.flamingo),
           Align(
               alignment: Alignment.center,
               child: Padding(
@@ -31,19 +32,19 @@ class JokeCard extends StatelessWidget {
                     model.value.toString(),
                     textAlign: TextAlign.center,
                     style: const TextStyle(
-                        color: Color(0xFF333333),
-                        fontWeight: FontWeight.normal,
+                        color: Palette.mineShaft,
+                        fontWeight: FontWeight.w300,
                         fontSize: 16.0),
                   ))),
-          const FaIcon(FontAwesomeIcons.quoteRight, color: Color(0xFFf15a24)),
+          const FaIcon(FontAwesomeIcons.quoteRight, color: Palette.flamingo),
           Button(
             top: 30,
             text: 'Fetch More',
-            primary: const Color(0xFFf15a24),
-            color: const Color(0xFFffffff),
+            primary: Palette.flamingo,
+            color: Palette.white,
             onPressed: () => {bloc.add(FetchAJoke())},
             faIcon: const FaIcon(FontAwesomeIcons.cloudArrowDown,
-                color: Color(0xFFffffff)),
+                color: Palette.white),
             horizontal: 50,
             vertical: 10,
           ),

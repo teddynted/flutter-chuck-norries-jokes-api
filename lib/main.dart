@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:chucknorris/screen/joke.dart';
+import 'package:chucknorris/helpers/swatch.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,9 +11,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(primarySwatch: Swatch.colorScheme()),
       title: 'Chuck Norris Jokes',
-      home: Scaffold(backgroundColor: Color(0xFFffffff), body: Joke()),
+      home: const Scaffold(backgroundColor: Color(0xFFffffff), body: Joke()),
     );
   }
 }
