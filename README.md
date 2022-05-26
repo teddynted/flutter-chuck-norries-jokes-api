@@ -1,12 +1,9 @@
-# chucknorris
-
-Chuck Norries Facts API
-
-## Getting Started
-
-![Flutter Mobile App](https://teddy-kekana-blog.s3.amazonaws.com/flutter-chuck-norris-facts-api.png)
+# Chuck Norries Facts API
 
 This project consumes Chuck Norris Facts api using Flutter and Flutter Bloc.
+
+<img style="display: block; margin: auto; width: 300px;"
+src="https://teddy-kekana-blog.s3.amazonaws.com/flutter-chuck-norris-facts-api.png">
 
 ## Installation
 
