@@ -2,8 +2,13 @@
 
 This project consumes Chuck Norris Facts api using Flutter and Flutter Bloc.
 
-<img style="display: block; margin: auto; width: 300px;"
+<img style="display: block; margin: auto;"
 src="https://teddy-kekana-blog.s3.amazonaws.com/flutter-chuck-norris-facts-api.png">
+
+## Prerequisite(s) on IOS
+
+&bull; Xcode (or Android Studio)
+&bull; Flutter Framework Installed
 
 ## Installation
 

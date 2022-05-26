@@ -1,9 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:chucknorris/model/joke_model.dart';
 import 'package:chucknorris/repository/joke_repository.dart';
-//import 'package:chucknorris/data/api_provider.dart';
 import 'package:equatable/equatable.dart';
-//import 'package:meta/meta.dart';
 
 part 'joke_event.dart';
 part 'joke_state.dart';
